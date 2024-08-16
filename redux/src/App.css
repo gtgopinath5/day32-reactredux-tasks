@@ -1,0 +1,29 @@
+/* Center headings */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  /* Dark-themed background */
+  body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* Ensure all cards and containers have appropriate styling */
+  .card {
+    background-color: #0b0707; /* Slightly lighter dark background for cards */
+    border: 1px solid #333; /* Border to distinguish cards */
+  }
+  
+  .btn {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Button text color */
+  }
+  
+  /* Ensure proper spacing and centering on pages */
+  .container, .card {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 20px;
+  }
+  
